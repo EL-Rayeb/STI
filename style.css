@@ -1,51 +1,42 @@
 code{
-    color: rgb(77, 133, 75);
+    color: rgb(77, 133, 75);/*bedel il coler mte3 il balis code*/
 }
 #code{
     color: #000;
 }
 body{
-    background-image: linear-gradient(rgba(255, 0, 0, 0.608),rgba(0, 0, 255, 0.536),rgba(0, 128, 0, 0.602));
+    background-image: linear-gradient(rgba(255, 0, 0, 0.608),rgba(0, 0, 255, 0.536),rgba(0, 128, 0, 0.602));/*background degrade*/
 }
 figcaption,caption{
-    font-size: 50px;
-    color: blueviolet;
+    font-size: 50px;/*kobr il 5at 50px*/
+    color: blueviolet;/*w zidha couleur violet*/
+    text-transform: uppercase;/*ywaliw il 7rouf majuscul*/
     
 }
 div{
-    margin: 50px;
+    margin: 50px;/*il bo3d il barani mabin il div w ch3andek b jnabha*/
     
 }
 #contener-hyperlinge,#contener-table-list,#contener-IVA,#contenr-paragraf,#debut{
-    position: relative;
-    margin-left: 20%;
-    justify-content: center;
-    align-items: center;
-    max-width: 700px;
-    background-color: aliceblue ;
-    filter: 0.2em;
-    padding: 50px;
-    border-radius: 20px;
-}
-#debut{
-    margin-left: 20%;
+    position: relative;/*tnejem ti7akem biha ama bil nesba lil 7aja lili 9balha w fama zeda (absolute)*/
+    margin-left: 20%;/*il bo3d mabin awel il page w il div*/
+    justify-content: center;/*il mo7tawa mte3 il dv fi westha*/
+    align-items: center;/*twali il contenu mte3 il div mwasta*/
+    max-width: 700px;/*akbar 3orth touselou il div*/
+    background-color: aliceblue ;/*background mte3 il div*/
+    padding: 50px;/*il bo3d il da5leni mabin il border w il mo7tawa mte3 il div*/
+    border-radius: 20px;/*il corner mte3 il div iwali arc*/
+    box-shadow: 6px 2px 5px #000000;/*tzid thel lil div*/
 }
 p{
-    text-align: center;
+    text-align: center;/*il ktibe mwasta*/
 }
 th,td{
-    padding: 0px 130px;
+    padding: 0px 130px;/*il espace mabin il btiba w il 5ana mte3 il table*/
 }
-img,video,audio{
-    position: relative;
-    align-items: center;
-}
-.a{
-    position: relative;
-    right: 0px;
-}
+
 .refrech{
-    width: 30px;
-    height: auto;
-    border-radius: 50% ;
+    width: 30px;/*il 3orth mte3 il hyper ligne il 3amlou refrech 30px*/
+    height: auto;/*ye5ou il valeur inti w 9adech t5ali il 3orth*/
+    border-radius: 50% ;/*bech t5aaliha mdawra*/
 }
