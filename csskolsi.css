@@ -1,0 +1,31 @@
+table{
+    border: 1px;
+}
+caption{
+    font-size: 50px;
+}
+p{
+    display: inline-block;
+}
+#s3af{
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 1px  2px #ff0000;
+}
+#s3afff{
+    background-color:#ba3bac;
+}
+#aydi{
+
+}
+#ba3bas{
+    position: absolute;
+}
+span{
+    font-size: large;
+    color: #ba3bac;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ol{
+    margin-top: 1200px;
+}
