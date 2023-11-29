@@ -4,13 +4,39 @@ code{
 #code{
     color: #000;
 }
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body{
+    background-image: linear-gradient(red,blue,green);
 }
 figcaption,caption{
     font-size: 50px;
+    color: blueviolet;
     
 }
 div{
+    margin: 50px;
     
+}
+#contener-hyperlinge,#contener-table-list,#contener-IVA,#contenr-paragraf,#debut{
+    position: relative;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    background-color: aliceblue ;
+    filter: 0.2em;
+    padding: 50px;
+    border-radius: 20px;
+}
+#debut{
+    margin-left: 20%;
+}
+p{
+    text-align: center;
+}
+th,td{
+    padding: 0px 130px;
+}
+img,video,audio{
+    position: relative;
+    align-items: center;
 }
