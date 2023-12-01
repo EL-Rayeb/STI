@@ -40,3 +40,56 @@ th,td{
     height: auto;/*ye5ou il valeur inti w 9adech t5ali il 3orth*/
     border-radius: 50% ;/*bech t5aaliha mdawra*/
 }
+@media screen and (max-width:900px) {
+    code{
+        color: rgb(77, 133, 75);/*bedel il coler mte3 il balis code*/
+    }
+    #code{
+        color: #000;
+    }
+    body{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.608),rgba(0, 0, 255, 0.536),rgba(0, 128, 0, 0.602));/*background degrade*/
+        justify-content: center;
+    }
+    figcaption,caption{
+        font-size: 30px;/*kobr il 5at 50px*/
+        color: blueviolet;/*w zidha couleur violet*/
+        text-transform: uppercase;/*ywaliw il 7rouf majuscul*/
+    }
+    div{
+        margin:10px 30px;/*il bo3d il barani mabin il div w ch3andek b jnabha*/
+        
+    }
+    #contener-hyperlinge,#contener-table-list,#contener-IVA,#contenr-paragraf,#debut{
+        position: relative;/*tnejem ti7akem biha ama bil nesba lil 7aja lili 9balha w fama zeda (absolute)*/
+        justify-content: center;/*il mo7tawa mte3 il dv fi westha*/
+        align-items: center;/*twali il contenu mte3 il div mwasta*/
+        max-width: 200px;/*akbar 3orth touselou il div*/
+        background-color: aliceblue ;/*background mte3 il div*/
+        padding: 10px 40px 40px 10px;/*il bo3d il da5leni mabin il border w il mo7tawa mte3 il div*/
+        border-radius: 20px;/*il corner mte3 il div iwali arc*/
+        box-shadow: 6px 2px 5px #000000;/*tzid thel lil div*/
+    }
+    p{
+        text-align: left;/*il ktibe left*/
+    }
+    th,td{
+        padding: 0px 10px;/*il espace mabin il btiba w il 5ana mte3 il table*/
+    }
+    
+    .refrech{
+        width: 30px;/*il 3orth mte3 il hyper ligne il 3amlou refrech 30px*/
+        height: auto;/*ye5ou il valeur inti w 9adech t5ali il 3orth*/
+        border-radius: 50% ;/*bech t5aaliha mdawra*/
+    }
+    img, video,audio{
+        width: 200px;
+    }
+    #vo{
+        font-size: small;
+    }
+    audio{
+        position: relative;
+        right: 50px;
+    }
+}
