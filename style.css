@@ -6,6 +6,7 @@ code{
 }
 body{
     background-image: linear-gradient(rgba(255, 0, 0, 0.608),rgba(0, 0, 255, 0.536),rgba(0, 128, 0, 0.602));/*background degrade*/
+
 }
 figcaption,caption{
     font-size: 50px;/*kobr il 5at 50px*/
@@ -18,9 +19,8 @@ div{
     
 }
 #contener-hyperlinge,#contener-table-list,#contener-IVA,#contenr-paragraf,#debut{
+    
     position: relative;/*tnejem ti7akem biha ama bil nesba lil 7aja lili 9balha w fama zeda (absolute)*/
-    margin-left: 20%;/*il bo3d mabin awel il page w il div*/
-    justify-content: center;/*il mo7tawa mte3 il dv fi westha*/
     align-items: center;/*twali il contenu mte3 il div mwasta*/
     max-width: 700px;/*akbar 3orth touselou il div*/
     background-color: aliceblue ;/*background mte3 il div*/
@@ -49,6 +49,7 @@ th,td{
     }
     body{
         background-image: linear-gradient(rgba(255, 0, 0, 0.608),rgba(0, 0, 255, 0.536),rgba(0, 128, 0, 0.602));/*background degrade*/
+        position: relative;
         justify-content: center;
     }
     figcaption,caption{
